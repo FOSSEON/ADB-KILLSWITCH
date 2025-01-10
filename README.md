@@ -227,5 +227,3 @@ Keep in mind that you will need to remember this new PIN and input it after fact
 ```
 
 [ꜛBACK TO INDEXꜛ](#INDEX)
-
-Credit to [Venice AI](https://venice.ai/) for the AI generated picture.
