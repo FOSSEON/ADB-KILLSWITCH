@@ -1,6 +1,10 @@
 # ADB-KILLSWITCH
 A killswitch for Android.
 
+<p align="center">
+  <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" />
+</p>
+
 ## INDEX <a name="INDEX"></a>
 
 [COMMAND BREAKDOWN](#COMMANDBREAKDOWN)
