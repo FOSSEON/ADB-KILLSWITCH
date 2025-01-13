@@ -5,15 +5,17 @@ A killswitch for Android.
   <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" />
 </p>
 
+Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as the icon for this repo.
+
 ## INDEX <a name="INDEX"></a>
 
-[COMMAND BREAKDOWN](#COMMANDBREAKDOWN)
+↪️[COMMAND BREAKDOWN](#COMMANDBREAKDOWN)
 
-[IMPORTANT INFORMATION](#IMPORTANTINFORMATION)
+↪️[IMPORTANT INFORMATION](#IMPORTANTINFORMATION)
 
-[CONFIGURATION](#CONFIGURATION)
+↪️[CONFIGURATION](#CONFIGURATION)
 
-[TODO](#TODO)
+↪️[TODO](#TODO)
 
 ## COMMAND BREAKDOWN <a name="COMMANDBREAKDOWN"></a>
 
@@ -25,7 +27,7 @@ A killswitch for Android.
 - Disables Bluetooth.
 - Disables NFC.
 - Disables Location Services (GPS).
-- Closes running apps (limited to 10 apps, but you can close more by adding to the command.)
+- Closes running apps (currently closes 10 apps, but you can close more by repeating the "input keyevent DEL" command).
 - Uninstalls all non-system apps and system apps of your preference.
 - Deletes all files and folders in internal storage (shared storage).
 - Deletes all files and folders in an external SD card, if one is present. 
@@ -85,7 +87,7 @@ cmd lock_settings set-pin --old <your old PIN number/any PIN number if you didn'
 reboot recovery
 ```
 
-[ꜛBACK TO INDEXꜛ](#INDEX)
+[↩️](#INDEX)
 
 ## IMPORTANT INFORMATION <a name="IMPORTANTINFORMATION"></a>
 
@@ -109,7 +111,7 @@ reboot recovery
 
 - Store your command somewhere safe. When needed, copy and paste the command into aShell, then execute it. Keep in mind, once you execute this command, there is no way to undo its effects.
 
-[ꜛBACK TO INDEXꜛ](#INDEX)
+[↩️](#INDEX)
 
 ## CONFIGURATION <a name="CONFIGURATION"></a>
 
@@ -173,7 +175,7 @@ adb shell cmd lock_settings set-pin --old <your old PIN number/type in any rando
 ```
 Keep in mind that you will need to remember this new PIN and input it after factory resetting to regain access to your device again.
 
-[ꜛBACK TO INDEXꜛ](#INDEX)
+[↩️](#INDEX)
 
 ## TODO <a name="TODO"></a>
 
@@ -230,4 +232,4 @@ Keep in mind that you will need to remember this new PIN and input it after fact
 ?: am start -a android.intent.action.SENDTO -d sms:+<phone number>   --es  sms_body "SOS --ez exit_on_sent false
 ```
 
-[ꜛBACK TO INDEXꜛ](#INDEX)
+[↩️](#INDEX)
