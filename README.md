@@ -1,13 +1,8 @@
-# ADB-KILLSWITCH
-A killswitch for Android.
-
 <p align="center">
   <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" />
 </p>
 
-Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as the icon for this repo.
-
-## INDEX <a name="INDEX"></a>
+# INDEX <a name="INDEX"></a>
 
 ↪️[COMMAND BREAKDOWN](#COMMANDBREAKDOWN)
 
@@ -17,7 +12,7 @@ Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as t
 
 ↪️[TODO](#TODO)
 
-## COMMAND BREAKDOWN <a name="COMMANDBREAKDOWN"></a>
+# COMMAND BREAKDOWN <a name="COMMANDBREAKDOWN"></a>
 
 **ADB Killswitch achieves the following:**
 
@@ -89,7 +84,7 @@ reboot recovery
 
 [↩️](#INDEX)
 
-## IMPORTANT INFORMATION <a name="IMPORTANTINFORMATION"></a>
+# IMPORTANT INFORMATION <a name="IMPORTANTINFORMATION"></a>
 
 - You will need a computer and an Android device.
 
@@ -113,7 +108,7 @@ reboot recovery
 
 [↩️](#INDEX)
 
-## CONFIGURATION <a name="CONFIGURATION"></a>
+# CONFIGURATION <a name="CONFIGURATION"></a>
 
 - **On your Android device, install [aShell](https://gitlab.com/sunilpaulmathew/ashell/-/releases), an ADB shell emulator app that will provide you a platform for executing ADB commands from your Android device.**
 
@@ -177,7 +172,7 @@ Keep in mind that you will need to remember this new PIN and input it after fact
 
 [↩️](#INDEX)
 
-## TODO <a name="TODO"></a>
+# TODO <a name="TODO"></a>
 
 **This section is for contributors who'd like to help add to the killswitch. The commands I want to add are stated with potential leads regarding their syntax. Blank code blocks are due to not finding solutions online, and further testing being required.**
 
@@ -233,3 +228,5 @@ Keep in mind that you will need to remember this new PIN and input it after fact
 ```
 
 [↩️](#INDEX)
+
+Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as the icon for this repo.
