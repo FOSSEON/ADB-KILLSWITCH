@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" />
+  <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" width="300" height="300" />
 </p>
 
 # INDEX <a name="INDEX"></a>
