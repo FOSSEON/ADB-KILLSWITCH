@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" width="300" height="300" />
 </p>
-
+<div align="center">
+  
 # INDEX <a name="INDEX"></a>
 
 ↪️[COMMAND BREAKDOWN](#COMMANDBREAKDOWN)
@@ -13,6 +14,7 @@
 ↪️[TODO](#TODO)
 
 # COMMAND BREAKDOWN <a name="COMMANDBREAKDOWN"></a>
+</div>
 
 **ADB Killswitch achieves the following:**
 
@@ -81,10 +83,12 @@ cmd lock_settings set-pin --old <your old PIN number/any PIN number if you didn'
 ```
 reboot recovery
 ```
-
+<div align="center">
+  
 [↩️](#INDEX)
 
 # IMPORTANT INFORMATION <a name="IMPORTANTINFORMATION"></a>
+</div>
 
 - You will need a computer and an Android device.
 
@@ -105,10 +109,12 @@ reboot recovery
 - TEST THIS COMMAND THOROUGHLY BEFORE UTILIZING IN A REAL-LIFE SCENARIO. Androids are all different, even if just slightly. What works on one device may not work perfectly on another. Thankfully, it is extremely easy to test this command using either the aShell app with elevated privileges on your Android device or ADB on your computer.
 
 - Store your command somewhere safe. When needed, copy and paste the command into aShell, then execute it. Keep in mind, once you execute this command, there is no way to undo its effects.
+<div align="center">
 
 [↩️](#INDEX)
 
 # CONFIGURATION <a name="CONFIGURATION"></a>
+</div>
 
 - **On your Android device, install [aShell](https://gitlab.com/sunilpaulmathew/ashell/-/releases), an ADB shell emulator app that will provide you a platform for executing ADB commands from your Android device.**
 
@@ -170,9 +176,12 @@ adb shell cmd lock_settings set-pin --old <your old PIN number/type in any rando
 ```
 Keep in mind that you will need to remember this new PIN and input it after factory resetting to regain access to your device again.
 
+<div align="center">
+
 [↩️](#INDEX)
 
 # TODO <a name="TODO"></a>
+</div>
 
 **This section is for contributors who'd like to help add to the killswitch. The commands I want to add are stated with potential leads regarding their syntax. Blank code blocks are due to not finding solutions online, and further testing being required.**
 
@@ -226,7 +235,8 @@ Keep in mind that you will need to remember this new PIN and input it after fact
 ```
 ?: am start -a android.intent.action.SENDTO -d sms:+<phone number>   --es  sms_body "SOS --ez exit_on_sent false
 ```
+<div align="center">
 
 [↩️](#INDEX)
 
-Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as the icon for this repo.
+Credit to [Venice AI](https://venice.ai/) for the AI generated picture used as the icon for this repo.</div>
