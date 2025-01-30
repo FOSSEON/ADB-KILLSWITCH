@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" width="300" height="300" />
+  <img src="https://github.com/FOSSEON/ADB-KILLSWITCH/blob/main/ADB-KILLSWITCH-ICON.png" width="300" height="300"/>
 </p>
 <div align="center">
   
